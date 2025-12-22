@@ -1,30 +1,22 @@
 # schedule.yml
 
-- group: onboarding
+- group: Project
   steps:
-    - title: 入职培训
-      start: 2025-11-25
-      end: 2025-11-26
-      status: done
-    - title: 系统账户创建
-      start: 2025-11-26
-      end: 2025-11-27
+    - title: Foxbox (v0.6 dev)
+      start: 2025-09-28
+      end: 2025-10-28
       status: done
 
-- group: projectA
+- group: Intern
   steps:
-    - title: 项目分析
-      start: 2025-11-26
-      end: 2025-11-30
-      status: active
-    - title: 设计方案
-      start: 2025-12-01
-      end: 2025-12-03
-      status: pending
+    - title: SW - Infra & Full Stack
+      start: 2025-11-01
+      end: 2025-12-07
+      status: done
 
-- group: projectB
+- group: Learning
   steps:
-    - title: 开发阶段
-      start: 2025-12-01
-      end: null
+    - title: Golang
+      start: 2025-09-01
+      end: 2025-10-30
       status: pending
